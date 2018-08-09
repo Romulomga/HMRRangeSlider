@@ -11,6 +11,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+```ruby
+iOS 8 or later
+```
+
 ## Installation
 
 HMRRangeSlider is available through [CocoaPods](https://cocoapods.org). To install
@@ -18,6 +22,15 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'HMRRangeSlider'
+```
+
+Note that this control uses IB_DESIGNABLE, so for it to work well and not get warnings in Interface Builder, you should use the latest version of CocoaPods, and add the `use_frameworks!` line. So your podfile may look something like
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+pod “HMRRangeSlider”
 ```
 
 ## Author
