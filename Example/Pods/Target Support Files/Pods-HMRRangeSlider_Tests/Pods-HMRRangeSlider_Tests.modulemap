@@ -1,0 +1,6 @@
+framework module Pods_HMRRangeSlider_Tests {
+  umbrella header "Pods-HMRRangeSlider_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

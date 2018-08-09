@@ -1,0 +1,16 @@
+PODS:
+  - HMRRangeSlider (0.1.0)
+
+DEPENDENCIES:
+  - HMRRangeSlider (from `../`)
+
+EXTERNAL SOURCES:
+  HMRRangeSlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HMRRangeSlider: 2d1abc29f51e5992ac6b88a4cf6b07c5913ae2c0
+
+PODFILE CHECKSUM: 79856a72201c8b58268609bc2280f9192b4dd3de
+
+COCOAPODS: 1.5.3

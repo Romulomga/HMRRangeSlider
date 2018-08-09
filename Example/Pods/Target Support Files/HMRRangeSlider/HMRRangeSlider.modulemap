@@ -1,0 +1,6 @@
+framework module HMRRangeSlider {
+  umbrella header "HMRRangeSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}
