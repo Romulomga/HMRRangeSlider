@@ -1,8 +1,8 @@
 # HMRRangeSlider
 
-[![CI Status](https://img.shields.io/travis/romulomga/HMRRangeSlider.svg?style=flat)](https://travis-ci.org/romulomga/HMRRangeSlider)
+[![Language](https://img.shields.io/badge/language-objc-blue.svg)](https://developer.apple.com)
 [![Version](https://img.shields.io/cocoapods/v/HMRRangeSlider.svg?style=flat)](https://cocoapods.org/pods/HMRRangeSlider)
-[![License](https://img.shields.io/cocoapods/l/HMRRangeSlider.svg?style=flat)](https://cocoapods.org/pods/HMRRangeSlider)
+[![License](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://cocoapods.org/pods/HMRRangeSlider)
 [![Platform](https://img.shields.io/cocoapods/p/HMRRangeSlider.svg?style=flat)](https://cocoapods.org/pods/HMRRangeSlider)
 
 ## Example
