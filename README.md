@@ -7,8 +7,6 @@
 
 A Clone of [TTRangeSlider](https://github.com/TomThorpe/TTRangeSlider) with multiple step.
 
-![Screenshot](https://github.com/TomThorpe/TTRangeSlider/blob/master/Example/TTRangeSlider.gif)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

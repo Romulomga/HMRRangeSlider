@@ -1,6 +1,4 @@
-//
 //  HMRRangeSliderDelegate.h
-//  HMRRangeSlider
 //
 //  Created by Romulo Monteiro on 09/08/2018.
 //

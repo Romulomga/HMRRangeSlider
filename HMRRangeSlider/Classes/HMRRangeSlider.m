@@ -1,6 +1,4 @@
-//
 //  HMRRangeSlider.m
-//  HMRRangeSlider
 //
 //  Created by Romulo Monteiro on 09/08/2018.
 //
