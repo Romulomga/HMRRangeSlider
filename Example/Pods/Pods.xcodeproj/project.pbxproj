@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11BBF7C078583797888FC1D023EE61AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		4331A0CB211CEE940029D617 /* HMRRangeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 4331A0CA211CEE940029D617 /* HMRRangeSlider.h */; };
-		4331A0CD211CEEAC0029D617 /* HMRRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4331A0CC211CEEAC0029D617 /* HMRRangeSlider.m */; };
-		4331A0CF211CEEC90029D617 /* HMRRangeSliderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4331A0CE211CEEC90029D617 /* HMRRangeSliderDelegate.h */; };
-		7B969BA422A540CA2D775C2553742D02 /* HMRRangeSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8D76778C7CB2370DFD6373257CDE7F6 /* HMRRangeSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		039A9A2998D5E3B6B656517D99DE3568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		071ADFACFA59382F00C13CCCE9D0105E /* HMRRangeSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 732A948970F9D32F2D1A93255551518F /* HMRRangeSlider-dummy.m */; };
+		590B2C75AFA07B7FF5F99E6AF4CE7E35 /* HMRRangeSliderDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CF14E2A28CE2C4D223D6EBFD9F6055E /* HMRRangeSliderDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F1AE7DBF3E759B24539A592B9A01C85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		963DB70A7C7BA74AD17B49D4065C874C /* HMRRangeSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B01F6B35CC55A1AAD7D98F5D889EF4 /* HMRRangeSlider-dummy.m */; };
 		9A3AC33D26A7942BA0804B86CA7E364B /* Pods-HMRRangeSlider_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF7863C95685DA5BCD84C5C558B1560 /* Pods-HMRRangeSlider_Example-dummy.m */; };
 		D2A85861305A2B851D9EEC2D00C24281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D8D5C1FB88F991324579EA895037E768 /* HMRRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B14B8516E87BAB166CEDAB4E4C0E89A /* HMRRangeSlider.m */; };
+		DBB7E02728D7DDC45CD7B65F2F7A4D7D /* HMRRangeSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EFB4D41061593FED32C101FA75DC61 /* HMRRangeSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC4F74497712DF813627A59A47D93D72 /* Pods-HMRRangeSlider_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B208FF9E7D3D2687722C3E685C76131 /* Pods-HMRRangeSlider_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFCD9EBFE546BB942C515D27BD3B3F9B /* Pods-HMRRangeSlider_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E50640D9DFA6B8E416FDDEC920BE6C4 /* Pods-HMRRangeSlider_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F23E4E3F8868A33F565A42B546084988 /* HMRRangeSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92DAD79F7773C9C45AC1F563CE9D30A7 /* HMRRangeSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC1F19E106D55A5DE26C284E3F0C550C /* Pods-HMRRangeSlider_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 341F166A25D5F6E84B3DD5ED1F6B42B8 /* Pods-HMRRangeSlider_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -33,65 +33,65 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A0F732EFCB3BC06167B6D456F8B4FAD;
+			remoteGlobalIDString = 8C691FF3D50696E73EE409ADF294F72F;
 			remoteInfo = HMRRangeSlider;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04AC6EE75A62A0AEAA914ACECDFF41B2 /* Pods_HMRRangeSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMRRangeSlider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AC6EE75A62A0AEAA914ACECDFF41B2 /* Pods_HMRRangeSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HMRRangeSlider_Tests.framework; path = "Pods-HMRRangeSlider_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C6A7EDD47C1815B955AE4D20BC57287 /* Pods-HMRRangeSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMRRangeSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1841582F4DB5F55A4B696C1515D6CBA1 /* Pods-HMRRangeSlider_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMRRangeSlider_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1905ACA254BF3BB4775DE99DDEEEA255 /* Pods-HMRRangeSlider_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMRRangeSlider_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1A3EEBAC3915E61E1BED1BA98544FF66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1CF65F1A2B009FBF22C9599BE0EFB152 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1DD9384E04D0E82FC39B27E5A83E0F7B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1EF7863C95685DA5BCD84C5C558B1560 /* Pods-HMRRangeSlider_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMRRangeSlider_Example-dummy.m"; sourceTree = "<group>"; };
-		2BEA582ED26518E6DF099367F5B5D7B9 /* HMRRangeSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMRRangeSlider-prefix.pch"; sourceTree = "<group>"; };
 		2F3A88DD07EC8FF58AD9E523E6F32ED6 /* Pods-HMRRangeSlider_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMRRangeSlider_Tests-resources.sh"; sourceTree = "<group>"; };
 		30C61541365F3514407AA81259FFB0BB /* Pods-HMRRangeSlider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMRRangeSlider_Example-frameworks.sh"; sourceTree = "<group>"; };
 		341F166A25D5F6E84B3DD5ED1F6B42B8 /* Pods-HMRRangeSlider_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMRRangeSlider_Tests-dummy.m"; sourceTree = "<group>"; };
 		3DE7C19C81406605C107C8A6D66369B4 /* Pods-HMRRangeSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMRRangeSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4331A0CA211CEE940029D617 /* HMRRangeSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HMRRangeSlider.h; path = HMRRangeSlider/Classes/HMRRangeSlider.h; sourceTree = "<group>"; };
-		4331A0CC211CEEAC0029D617 /* HMRRangeSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HMRRangeSlider.m; path = HMRRangeSlider/Classes/HMRRangeSlider.m; sourceTree = "<group>"; };
-		4331A0CE211CEEC90029D617 /* HMRRangeSliderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HMRRangeSliderDelegate.h; path = HMRRangeSlider/Classes/HMRRangeSliderDelegate.h; sourceTree = "<group>"; };
 		4FE8448D4CD02859106EEDDF661DF93F /* Pods-HMRRangeSlider_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HMRRangeSlider_Tests.modulemap"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6425C68242420E11901B573870F76B6E /* Pods-HMRRangeSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMRRangeSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7A64EB4061347CFE5F6BF98602529151 /* HMRRangeSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMRRangeSlider.xcconfig; sourceTree = "<group>"; };
+		732A948970F9D32F2D1A93255551518F /* HMRRangeSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMRRangeSlider-dummy.m"; sourceTree = "<group>"; };
+		7B14B8516E87BAB166CEDAB4E4C0E89A /* HMRRangeSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMRRangeSlider.m; path = HMRRangeSlider/Classes/HMRRangeSlider.m; sourceTree = "<group>"; };
 		87229FE74A8ED6546ACBDF86ED520CAB /* Pods-HMRRangeSlider_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HMRRangeSlider_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CF14E2A28CE2C4D223D6EBFD9F6055E /* HMRRangeSliderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMRRangeSliderDelegate.h; path = HMRRangeSlider/Classes/HMRRangeSliderDelegate.h; sourceTree = "<group>"; };
+		92DAD79F7773C9C45AC1F563CE9D30A7 /* HMRRangeSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMRRangeSlider-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B208FF9E7D3D2687722C3E685C76131 /* Pods-HMRRangeSlider_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HMRRangeSlider_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9E50640D9DFA6B8E416FDDEC920BE6C4 /* Pods-HMRRangeSlider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HMRRangeSlider_Example-umbrella.h"; sourceTree = "<group>"; };
-		A1B01F6B35CC55A1AAD7D98F5D889EF4 /* HMRRangeSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMRRangeSlider-dummy.m"; sourceTree = "<group>"; };
-		AD8AA60DA878CE16A8C9A78909864FD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2F6EAD40CA3FC9B11CCBB2F78F2AD83 /* HMRRangeSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMRRangeSlider.xcconfig; sourceTree = "<group>"; };
 		B1CE8DE517C0A1CC5FBAB38ED778A1F5 /* Pods-HMRRangeSlider_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMRRangeSlider_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B6EFB4D41061593FED32C101FA75DC61 /* HMRRangeSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMRRangeSlider.h; path = HMRRangeSlider/Classes/HMRRangeSlider.h; sourceTree = "<group>"; };
 		B839ED1DD8C9FB54287F4E989F7E1EDE /* Pods-HMRRangeSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMRRangeSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C5D8820BB352F5891786BDD1CC41549C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CAB06485162170B1778DAF2A4AB35D6C /* Pods-HMRRangeSlider_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HMRRangeSlider_Example.modulemap"; sourceTree = "<group>"; };
-		D82EFB68CA3C71F621575B32388F2FD2 /* HMRRangeSlider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HMRRangeSlider.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D8D76778C7CB2370DFD6373257CDE7F6 /* HMRRangeSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMRRangeSlider-umbrella.h"; sourceTree = "<group>"; };
+		D0112C329CDF88EC86A3171661C53BE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB0C0F158AC15518856FBB0D4A0ED887 /* Pods-HMRRangeSlider_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMRRangeSlider_Example-resources.sh"; sourceTree = "<group>"; };
 		E44AD6F06FA83DFBA54F696571A66BA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE10053F07B5DC19E82FE96DBCCBE704 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0F4652FA70ABC4B012B0D9EE21038EC /* HMRRangeSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMRRangeSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2E456748A9E9F3FDF272857D25CB252 /* HMRRangeSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HMRRangeSlider.modulemap; sourceTree = "<group>"; };
+		F0F4652FA70ABC4B012B0D9EE21038EC /* HMRRangeSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HMRRangeSlider.framework; path = HMRRangeSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C28870F6AD02B7A653D96B709860EA /* HMRRangeSlider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HMRRangeSlider.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F621CB48A1C7A267C2E113C5C6F4885E /* HMRRangeSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMRRangeSlider-prefix.pch"; sourceTree = "<group>"; };
+		F8F718D4BCBBCD4340F1F09A445C90F6 /* HMRRangeSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HMRRangeSlider.modulemap; sourceTree = "<group>"; };
 		FA33E559453D2E2F4D221E09D5C27487 /* Pods-HMRRangeSlider_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HMRRangeSlider_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD6EC000499D046C01E4827BECE8D249 /* Pods_HMRRangeSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMRRangeSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6EC000499D046C01E4827BECE8D249 /* Pods_HMRRangeSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HMRRangeSlider_Example.framework; path = "Pods-HMRRangeSlider_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0377EBCD6FD7318FFEA7745773A06F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039A9A2998D5E3B6B656517D99DE3568 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8437D8021FBCCBA227206B587C76B318 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7F1AE7DBF3E759B24539A592B9A01C85 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BEB2B74E22DBF60BF3F162F4E3647A25 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				11BBF7C078583797888FC1D023EE61AD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,14 +106,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A4D739C6D9F80E27EDF639CEBBDD788 /* HMRRangeSlider */ = {
+		2D6D306A03C3AFA0F502571F55718FC1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4331A0CA211CEE940029D617 /* HMRRangeSlider.h */,
-				4331A0CC211CEEAC0029D617 /* HMRRangeSlider.m */,
-				4331A0CE211CEEC90029D617 /* HMRRangeSliderDelegate.h */,
-				E607140BF834A1BE97E93716EE5EF163 /* Pod */,
-				808E2D427E766000A70BEAD50C03ECDC /* Support Files */,
+				F8F718D4BCBBCD4340F1F09A445C90F6 /* HMRRangeSlider.modulemap */,
+				A2F6EAD40CA3FC9B11CCBB2F78F2AD83 /* HMRRangeSlider.xcconfig */,
+				732A948970F9D32F2D1A93255551518F /* HMRRangeSlider-dummy.m */,
+				F621CB48A1C7A267C2E113C5C6F4885E /* HMRRangeSlider-prefix.pch */,
+				92DAD79F7773C9C45AC1F563CE9D30A7 /* HMRRangeSlider-umbrella.h */,
+				D0112C329CDF88EC86A3171661C53BE3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HMRRangeSlider";
+			sourceTree = "<group>";
+		};
+		56F40C03FD558FB7D5CB063E0CBB0668 /* HMRRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				B6EFB4D41061593FED32C101FA75DC61 /* HMRRangeSlider.h */,
+				7B14B8516E87BAB166CEDAB4E4C0E89A /* HMRRangeSlider.m */,
+				8CF14E2A28CE2C4D223D6EBFD9F6055E /* HMRRangeSliderDelegate.h */,
+				E5B7E06100330177CD595DA594EA673D /* Pod */,
+				2D6D306A03C3AFA0F502571F55718FC1 /* Support Files */,
 			);
 			name = HMRRangeSlider;
 			path = ../..;
@@ -131,25 +145,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B948B85610B4B67B79014DFB01278CDA /* Development Pods */,
+				C4330B50CE56F9D4B01BD90F5501C139 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				B57BD35F2C490F0FB407F839B0F01C87 /* Products */,
 				DA662251B8BAA8DBECE5E2BE7F9B2818 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		808E2D427E766000A70BEAD50C03ECDC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F2E456748A9E9F3FDF272857D25CB252 /* HMRRangeSlider.modulemap */,
-				7A64EB4061347CFE5F6BF98602529151 /* HMRRangeSlider.xcconfig */,
-				A1B01F6B35CC55A1AAD7D98F5D889EF4 /* HMRRangeSlider-dummy.m */,
-				2BEA582ED26518E6DF099367F5B5D7B9 /* HMRRangeSlider-prefix.pch */,
-				D8D76778C7CB2370DFD6373257CDE7F6 /* HMRRangeSlider-umbrella.h */,
-				AD8AA60DA878CE16A8C9A78909864FD2 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HMRRangeSlider";
 			sourceTree = "<group>";
 		};
 		B4A4718209E982ADC62C1CD2115807B3 /* Pods-HMRRangeSlider_Example */ = {
@@ -180,20 +180,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B948B85610B4B67B79014DFB01278CDA /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4A4D739C6D9F80E27EDF639CEBBDD788 /* HMRRangeSlider */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4330B50CE56F9D4B01BD90F5501C139 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56F40C03FD558FB7D5CB063E0CBB0668 /* HMRRangeSlider */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C962CDA1E2F9D5F15D2ABFA16F8B8168 /* Pods-HMRRangeSlider_Tests */ = {
@@ -223,12 +223,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E607140BF834A1BE97E93716EE5EF163 /* Pod */ = {
+		E5B7E06100330177CD595DA594EA673D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D82EFB68CA3C71F621575B32388F2FD2 /* HMRRangeSlider.podspec */,
-				1CF65F1A2B009FBF22C9599BE0EFB152 /* LICENSE */,
-				1A3EEBAC3915E61E1BED1BA98544FF66 /* README.md */,
+				F1C28870F6AD02B7A653D96B709860EA /* HMRRangeSlider.podspec */,
+				C5D8820BB352F5891786BDD1CC41549C /* LICENSE */,
+				1DD9384E04D0E82FC39B27E5A83E0F7B /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -252,26 +252,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B486E0DA1869BB18EC5EF06FE0B9F5D /* Headers */ = {
+		C511A83AABC11821CA386BC21B220FFD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4331A0CF211CEEC90029D617 /* HMRRangeSliderDelegate.h in Headers */,
-				7B969BA422A540CA2D775C2553742D02 /* HMRRangeSlider-umbrella.h in Headers */,
-				4331A0CB211CEE940029D617 /* HMRRangeSlider.h in Headers */,
+				F23E4E3F8868A33F565A42B546084988 /* HMRRangeSlider-umbrella.h in Headers */,
+				DBB7E02728D7DDC45CD7B65F2F7A4D7D /* HMRRangeSlider.h in Headers */,
+				590B2C75AFA07B7FF5F99E6AF4CE7E35 /* HMRRangeSliderDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9A0F732EFCB3BC06167B6D456F8B4FAD /* HMRRangeSlider */ = {
+		8C691FF3D50696E73EE409ADF294F72F /* HMRRangeSlider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98FA5087B0DE618450D41F936EF1CFF6 /* Build configuration list for PBXNativeTarget "HMRRangeSlider" */;
+			buildConfigurationList = 11027B1BC39C8D6166CF454E18D13322 /* Build configuration list for PBXNativeTarget "HMRRangeSlider" */;
 			buildPhases = (
-				1C35F7B1FDD45BFCBDFA2B8373990D1B /* Sources */,
-				BEB2B74E22DBF60BF3F162F4E3647A25 /* Frameworks */,
-				6B486E0DA1869BB18EC5EF06FE0B9F5D /* Headers */,
+				C62084D86DDCA9CCF5D887F60F6643FA /* Sources */,
+				0377EBCD6FD7318FFEA7745773A06F7D /* Frameworks */,
+				C511A83AABC11821CA386BC21B220FFD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -339,7 +339,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A0F732EFCB3BC06167B6D456F8B4FAD /* HMRRangeSlider */,
+				8C691FF3D50696E73EE409ADF294F72F /* HMRRangeSlider */,
 				FDE6AF5B4A8A6DE03963ED118212CA04 /* Pods-HMRRangeSlider_Example */,
 				AE05A7CB590A9CC74CD6F824D3FB4BDA /* Pods-HMRRangeSlider_Tests */,
 			);
@@ -347,20 +347,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C35F7B1FDD45BFCBDFA2B8373990D1B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4331A0CD211CEEAC0029D617 /* HMRRangeSlider.m in Sources */,
-				963DB70A7C7BA74AD17B49D4065C874C /* HMRRangeSlider-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A013E0D7560E1428CEC03561418B8BDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9A3AC33D26A7942BA0804B86CA7E364B /* Pods-HMRRangeSlider_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62084D86DDCA9CCF5D887F60F6643FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				071ADFACFA59382F00C13CCCE9D0105E /* HMRRangeSlider-dummy.m in Sources */,
+				D8D5C1FB88F991324579EA895037E768 /* HMRRangeSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +378,7 @@
 		5CE03457CE9297370863F485ED430BFA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HMRRangeSlider;
-			target = 9A0F732EFCB3BC06167B6D456F8B4FAD /* HMRRangeSlider */;
+			target = 8C691FF3D50696E73EE409ADF294F72F /* HMRRangeSlider */;
 			targetProxy = 75C7120F36AE6F81D986ACC16D3442DA /* PBXContainerItemProxy */;
 		};
 		9CE8CB11703A3D70EEB1BB47DB7A4C4A /* PBXTargetDependency */ = {
@@ -390,36 +390,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4EEAB54394761DD37A562FC0BFA1D71B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A64EB4061347CFE5F6BF98602529151 /* HMRRangeSlider.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HMRRangeSlider/HMRRangeSlider-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HMRRangeSlider/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HMRRangeSlider/HMRRangeSlider.modulemap";
-				PRODUCT_MODULE_NAME = HMRRangeSlider;
-				PRODUCT_NAME = HMRRangeSlider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		64C8B2A5B7CBB91F7A54864893BCA462 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6425C68242420E11901B573870F76B6E /* Pods-HMRRangeSlider_Example.debug.xcconfig */;
@@ -452,37 +422,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		6526817753918944C8D334CEAF5D1EF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A64EB4061347CFE5F6BF98602529151 /* HMRRangeSlider.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HMRRangeSlider/HMRRangeSlider-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HMRRangeSlider/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HMRRangeSlider/HMRRangeSlider.modulemap";
-				PRODUCT_MODULE_NAME = HMRRangeSlider;
-				PRODUCT_NAME = HMRRangeSlider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		6BE90F8B4A0F54C9D4D0F859FF1DC27C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -518,7 +457,7 @@
 			};
 			name = Release;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		AB3F314AEC977B34B5694E3A27DE31DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -550,71 +489,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -638,6 +512,36 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		B1237D56CFE0CF75EF08B5EFE8CA3D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F6EAD40CA3FC9B11CCBB2F78F2AD83 /* HMRRangeSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HMRRangeSlider/HMRRangeSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HMRRangeSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HMRRangeSlider/HMRRangeSlider.modulemap";
+				PRODUCT_MODULE_NAME = HMRRangeSlider;
+				PRODUCT_NAME = HMRRangeSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B5F788FD11283138A3011115CD8D4069 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -706,14 +610,115 @@
 			};
 			name = Debug;
 		};
+		BCF28E17D3B82BB680D9B740CBEA736D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F6EAD40CA3FC9B11CCBB2F78F2AD83 /* HMRRangeSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HMRRangeSlider/HMRRangeSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HMRRangeSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HMRRangeSlider/HMRRangeSlider.modulemap";
+				PRODUCT_MODULE_NAME = HMRRangeSlider;
+				PRODUCT_NAME = HMRRangeSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D87963168AE58A21EA4E25B4480D92CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		11027B1BC39C8D6166CF454E18D13322 /* Build configuration list for PBXNativeTarget "HMRRangeSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1237D56CFE0CF75EF08B5EFE8CA3D50 /* Debug */,
+				BCF28E17D3B82BB680D9B740CBEA736D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				D87963168AE58A21EA4E25B4480D92CB /* Debug */,
+				AB3F314AEC977B34B5694E3A27DE31DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -723,15 +728,6 @@
 			buildConfigurations = (
 				64C8B2A5B7CBB91F7A54864893BCA462 /* Debug */,
 				B5F788FD11283138A3011115CD8D4069 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		98FA5087B0DE618450D41F936EF1CFF6 /* Build configuration list for PBXNativeTarget "HMRRangeSlider" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4EEAB54394761DD37A562FC0BFA1D71B /* Debug */,
-				6526817753918944C8D334CEAF5D1EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

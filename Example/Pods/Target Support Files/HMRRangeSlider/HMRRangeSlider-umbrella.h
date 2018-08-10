@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "HMRRangeSlider.h"
+#import "HMRRangeSliderDelegate.h"
 
 FOUNDATION_EXPORT double HMRRangeSliderVersionNumber;
 FOUNDATION_EXPORT const unsigned char HMRRangeSliderVersionString[];
