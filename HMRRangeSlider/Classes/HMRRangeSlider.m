@@ -61,7 +61,8 @@ static const CGFloat kLabelsFontSize = 12.0f;
     _maxDistance = -1;
     
     _enableStep = NO;
-    _step = 0.1f;
+    _minStep = 0.1f;
+    _maxStep = 0.1f;
     
     _hideLabels = NO;
     
@@ -374,11 +375,12 @@ static const CGFloat kLabelsFontSize = 12.0f;
 
 - (void)refresh {
     
-    if (self.enableStep && self.step>=0.0f){
-        _selectedMinimum = roundf(self.selectedMinimum/self.step)*self.step;
-        _selectedMaximum = roundf(self.selectedMaximum/self.step)*self.step;
-    }
+    if (self.enableStep && self.minStep>=0.0f)
+        _selectedMinimum = roundf(self.selectedMinimum/self.minStep)*self.minStep;
     
+    if (self.enableStep && self.maxStep>=0.0f)
+        _selectedMaximum = roundf(self.selectedMaximum/self.maxStep)*self.maxStep;
+
     float diff = self.selectedMaximum - self.selectedMinimum;
     
     if (self.minDistance != -1 && diff < self.minDistance) {
@@ -762,13 +764,13 @@ static const CGFloat kLabelsFontSize = 12.0f;
 
 - (void)accessibilityIncrement {
     HMRRangeSlider* slider = (HMRRangeSlider*)self.accessibilityContainer;
-    slider.selectedMinimum += slider.step;
+    slider.selectedMinimum += slider.minStep;
     self.accessibilityValue = slider.minLabel.string;
 }
 
 - (void)accessibilityDecrement {
     HMRRangeSlider* slider = (HMRRangeSlider*)self.accessibilityContainer;
-    slider.selectedMinimum -= slider.step;
+    slider.selectedMinimum -= slider.minStep;
     self.accessibilityValue = slider.minLabel.string;
 }
 
@@ -778,13 +780,13 @@ static const CGFloat kLabelsFontSize = 12.0f;
 
 - (void)accessibilityIncrement {
     HMRRangeSlider* slider = (HMRRangeSlider*)self.accessibilityContainer;
-    slider.selectedMaximum += slider.step;
+    slider.selectedMaximum += slider.maxStep;
     self.accessibilityValue = slider.maxLabel.string;
 }
 
 - (void)accessibilityDecrement {
     HMRRangeSlider* slider = (HMRRangeSlider*)self.accessibilityContainer;
-    slider.selectedMaximum -= slider.step;
+    slider.selectedMaximum -= slider.maxStep;
     self.accessibilityValue = slider.maxLabel.string;
 }
 

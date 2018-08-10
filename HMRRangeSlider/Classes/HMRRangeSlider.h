@@ -119,10 +119,16 @@ IB_DESIGNABLE
 @property (nonatomic, assign) IBInspectable BOOL enableStep;
 
 /**
- * The step value, this control the value of each step. If not set the default is 0.1.
+ * The step value of minimum handle, this control the value of each step. If not set the default is 0.1.
  * (note: this is ignored if <= 0.0)
  */
-@property (nonatomic, assign) IBInspectable float step;
+@property (nonatomic, assign) IBInspectable float minStep;
+
+/**
+ * The step value of maximum handle, this control the value of each step. If not set the default is 0.1.
+ * (note: this is ignored if <= 0.0)
+ */
+@property (nonatomic, assign) IBInspectable float maxStep;
 
 /**
  *Set padding between label and handle (default 8.0)
