@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://cocoapods.org/pods/HMRRangeSlider)
 [![Platform](https://img.shields.io/cocoapods/p/HMRRangeSlider.svg?style=flat)](https://cocoapods.org/pods/HMRRangeSlider)
 
+A Clone of [TTRangeSlider](https://github.com/TomThorpe/TTRangeSlider) with multiple step.
+
+![Screenshot](Example/TTRangeSlider.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
