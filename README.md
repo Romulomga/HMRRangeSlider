@@ -7,7 +7,7 @@
 
 A Clone of [TTRangeSlider](https://github.com/TomThorpe/TTRangeSlider) with multiple step.
 
-![Screenshot](Example/TTRangeSlider.gif)
+![Screenshot](https://github.com/TomThorpe/TTRangeSlider/blob/master/Example/TTRangeSlider.gif)
 
 ## Example
 
