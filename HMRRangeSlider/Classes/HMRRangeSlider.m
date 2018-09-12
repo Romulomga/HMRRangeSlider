@@ -436,9 +436,23 @@ static const CGFloat kLabelsFontSize = 12.0f;
     if (self.leftHandleSelected)
     {
         if (selectedValue < self.selectedMaximum){
+            if ([self.delegate respondsToSelector:@selector(rangeSlider:willChangeLeftHandle:orRightHandle:toValue:)]){
+                
+                [self.delegate rangeSlider:self
+                      willChangeLeftHandle:self.leftHandleSelected
+                             orRightHandle:self.rightHandleSelected
+                                   toValue:selectedValue];
+            }
             self.selectedMinimum = selectedValue;
         }
         else {
+            if ([self.delegate respondsToSelector:@selector(rangeSlider:willChangeLeftHandle:orRightHandle:toValue:)]){
+                
+                [self.delegate rangeSlider:self
+                      willChangeLeftHandle:self.leftHandleSelected
+                             orRightHandle:self.rightHandleSelected
+                                   toValue:self.selectedMaximum];
+            }
             self.selectedMinimum = self.selectedMaximum;
         }
         
@@ -446,9 +460,23 @@ static const CGFloat kLabelsFontSize = 12.0f;
     else if (self.rightHandleSelected)
     {
         if (selectedValue > self.selectedMinimum || (self.disableRange && selectedValue >= self.minValue)){ //don't let the dots cross over, (unless range is disabled, in which case just dont let the dot fall off the end of the screen)
+            if ([self.delegate respondsToSelector:@selector(rangeSlider:willChangeLeftHandle:orRightHandle:toValue:)]){
+                
+                [self.delegate rangeSlider:self
+                      willChangeLeftHandle:self.leftHandleSelected
+                             orRightHandle:self.rightHandleSelected
+                                   toValue:selectedValue];
+            }
             self.selectedMaximum = selectedValue;
         }
         else {
+            if ([self.delegate respondsToSelector:@selector(rangeSlider:willChangeLeftHandle:orRightHandle:toValue:)]){
+                
+                [self.delegate rangeSlider:self
+                      willChangeLeftHandle:self.leftHandleSelected
+                             orRightHandle:self.rightHandleSelected
+                                   toValue:self.selectedMinimum];
+            }
             self.selectedMaximum = self.selectedMinimum;
         }
     }
