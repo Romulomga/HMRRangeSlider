@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HMRRangeSlider'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A slider that allows you to pick a range.'
 
   s.description      = 'A clone of [TTRangeSlider](https://github.com/TomThorpe/TTRangeSlider). Distributed by [Tom Thorpe](https://github.com/TomThorpe) in Github containing some improvements as individual steps for each handle and extra infos in touches delegates'
