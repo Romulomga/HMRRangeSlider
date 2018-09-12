@@ -19,8 +19,7 @@
  * Called when the RangeSlider values will change
  */
 - (void)rangeSlider: (HMRRangeSlider *)sender willChangeLeftHandle: (BOOL)leftSelected
-      orRightHandle: (BOOL)rightSelected
-            toValue: (float)value;
+      orRightHandle: (BOOL)rightSelected;
 
 /**
  * Called when the user has finished interacting with the RangeSlider
