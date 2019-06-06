@@ -2,12 +2,6 @@ use_frameworks!
 
 target 'HMRRangeSlider_Example' do
   pod 'HMRRangeSlider', :path => '../'
-
-  target 'HMRRangeSlider_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
 
 post_install do |installer|

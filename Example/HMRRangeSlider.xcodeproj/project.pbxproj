@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28FBA8A88D03FD241F67FF9D /* Pods_HMRRangeSlider_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8851B4949E67A5745E797E /* Pods_HMRRangeSlider_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -65,8 +64,6 @@
 		8A621DDC8ED48CA1E36C1AFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8CA4024D694E1E0A215A38F5 /* Pods_HMRRangeSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMRRangeSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97934FA246E8468192ACFBE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BB4644B6DF4E414B405C8453 /* Pods-HMRRangeSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMRRangeSlider_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HMRRangeSlider_Tests/Pods-HMRRangeSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DBC195CB98783F7388344958 /* Pods-HMRRangeSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMRRangeSlider_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HMRRangeSlider_Tests/Pods-HMRRangeSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				28FBA8A88D03FD241F67FF9D /* Pods_HMRRangeSlider_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,8 +186,6 @@
 			children = (
 				2B88434FF3A85C3C75B5FCA7 /* Pods-HMRRangeSlider_Example.debug.xcconfig */,
 				738702D4A43A5B04DDA06FB8 /* Pods-HMRRangeSlider_Example.release.xcconfig */,
-				DBC195CB98783F7388344958 /* Pods-HMRRangeSlider_Tests.debug.xcconfig */,
-				BB4644B6DF4E414B405C8453 /* Pods-HMRRangeSlider_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -222,7 +216,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "HMRRangeSlider_Tests" */;
 			buildPhases = (
-				467A31AFFC04B4568D325AD1 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -294,31 +287,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		467A31AFFC04B4568D325AD1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HMRRangeSlider_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8A9D92B66C84C003A9FA8522 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HMRRangeSlider_Example/Pods-HMRRangeSlider_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-HMRRangeSlider_Example/Pods-HMRRangeSlider_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HMRRangeSlider/HMRRangeSlider.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -327,7 +302,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HMRRangeSlider_Example/Pods-HMRRangeSlider_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HMRRangeSlider_Example/Pods-HMRRangeSlider_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D54B3D44F2F0777EB5F342D1 /* [CP] Check Pods Manifest.lock */ = {
@@ -512,7 +487,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBC195CB98783F7388344958 /* Pods-HMRRangeSlider_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -536,7 +510,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB4644B6DF4E414B405C8453 /* Pods-HMRRangeSlider_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
