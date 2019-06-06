@@ -5,7 +5,7 @@
 
 #import "HMRRangeSlider.h"
 
-const int HANDLE_TOUCH_AREA_EXPANSION = -30; //expand the touch area of the handle by this much (negative values increase size) so that you don't have to touch right on the handle to activate it.
+const int HANDLE_TOUCH_AREA_EXPANSION = -15; //expand the touch area of the handle by this much (negative values increase size) so that you don't have to touch right on the handle to activate it.
 const float TEXT_HEIGHT = 14;
 
 @interface HMRRangeSlider()
@@ -51,9 +51,9 @@ static const CGFloat kLabelsFontSize = 12.0f;
 - (void)initialiseControl {
     //defaults:
     _minValue = 0;
-    _selectedMinimum = 10;
+    _selectedMinimum = 0;
     _maxValue = 100;
-    _selectedMaximum  = 90;
+    _selectedMaximum  = 100;
     
     _minDistance = -1;
     _maxDistance = -1;
@@ -161,7 +161,7 @@ static const CGFloat kLabelsFontSize = 12.0f;
     [super layoutSubviews];
     
     //positioning for the slider line
-    float barSidePadding = self.barSidePadding;
+    float barSidePadding = self.barSidePadding + (self.handleDiameter / 2);
     CGRect currentFrame = self.frame;
     float yMiddle = currentFrame.size.height/2.0;
     CGPoint lineLeftSide = CGPointMake(barSidePadding, yMiddle);
@@ -284,10 +284,10 @@ static const CGFloat kLabelsFontSize = 12.0f;
 
 #pragma mark - Set Positions
 - (void)updateHandlePositions {
-    CGPoint leftHandleCenter = CGPointMake([self getXPositionAlongLineForValue:self.selectedMinimum], CGRectGetMidY(self.sliderLine.frame));
+    CGPoint leftHandleCenter = CGPointMake([self getXPositionAlongLineForValue:self.selectedMinimum] - self.leftHandle.frame.size.width / 2, CGRectGetMidY(self.sliderLine.frame));
     self.leftHandle.position = leftHandleCenter;
     
-    CGPoint rightHandleCenter = CGPointMake([self getXPositionAlongLineForValue:self.selectedMaximum], CGRectGetMidY(self.sliderLine.frame));
+    CGPoint rightHandleCenter = CGPointMake([self getXPositionAlongLineForValue:self.selectedMaximum] + self.rightHandle.frame.size.width / 2, CGRectGetMidY(self.sliderLine.frame));
     self.rightHandle.position= rightHandleCenter;
     
     //positioning for the dist slider line

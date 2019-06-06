@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bBF-bb-OIF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bBF-bb-OIF">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,40 +21,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbC-fD-SEK" customClass="HMRRangeSlider">
-                                <rect key="frame" x="67" y="311" width="240" height="44"/>
-                                <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="PCX-gh-fo7"/>
-                                    <constraint firstAttribute="height" constant="44" id="xcq-Pw-PJ0"/>
-                                </constraints>
+                            <view contentMode="scaleToFill" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="WKK-5e-2rB" customClass="HMRRangeSlider">
+                                <rect key="frame" x="32" y="301" width="311" height="65"/>
+                                <color key="backgroundColor" red="0.88235294117647056" green="0.88235294117647056" blue="0.88235294117647056" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.79215686269999996" green="0.79215686269999996" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="minValue">
-                                        <real key="value" value="0.0"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="maxValue">
-                                        <real key="value" value="10000000"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="selectedMinimum">
-                                        <real key="value" value="0.0"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="selectedMaximum">
-                                        <real key="value" value="10000000"/>
-                                    </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="enableStep" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="minStep">
-                                        <real key="value" value="50000"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="lineHeight" value="1.5f"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="handleColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="maxStep">
-                                        <real key="value" value="1000000"/>
-                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="handleDiameter" value="28.0f"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="hideLabels" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="selectedHandleDiameterMultiplier" value="1.2f"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="handleImage" value="slider-button-icon"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="dbC-fD-SEK" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="3Ct-3K-uIR"/>
-                            <constraint firstItem="dbC-fD-SEK" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="HXN-de-ICY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WKK-5e-2rB" secondAttribute="trailing" constant="16" id="1Jv-sC-ZXh"/>
+                            <constraint firstItem="WKK-5e-2rB" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="9iA-7f-ifH"/>
+                            <constraint firstItem="WKK-5e-2rB" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="16" id="PJ3-El-wU6"/>
+                            <constraint firstItem="WKK-5e-2rB" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" id="zeX-bX-BKp"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="HMRRangeSlider" id="u4i-JQ-wLE"/>
@@ -82,4 +71,7 @@
             <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="slider-button-icon" width="26" height="26"/>
+    </resources>
 </document>
