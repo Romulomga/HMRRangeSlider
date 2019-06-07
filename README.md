@@ -14,7 +14,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 
 ```ruby
-iOS 8 or later
+iOS 10 or later
 ```
 
 ## Installation

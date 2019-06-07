@@ -31,29 +31,29 @@
 /* Begin PBXFileReference section */
 		02A9648A3271484C37821EC50BD375DD /* Pods-HMRRangeSlider_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HMRRangeSlider_Example-dummy.m"; sourceTree = "<group>"; };
 		0D17975B774B377C4FDAF69F558A9DF7 /* HMRRangeSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMRRangeSlider-prefix.pch"; sourceTree = "<group>"; };
-		0F1069EBE65A67583F82008181BF7DBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0F1069EBE65A67583F82008181BF7DBC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18FC659CF8D50DBFE877A758933C1927 /* HMRRangeSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMRRangeSlider.h; path = HMRRangeSlider/Classes/HMRRangeSlider.h; sourceTree = "<group>"; };
 		1B6C246CA024DB06BDA657EE377B88E7 /* Pods-HMRRangeSlider_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMRRangeSlider_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1F220A37B26942D055EC719F7148F6D4 /* Pods_HMRRangeSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HMRRangeSlider_Example.framework; path = "Pods-HMRRangeSlider_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F220A37B26942D055EC719F7148F6D4 /* Pods_HMRRangeSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMRRangeSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2521C62AABEB9A29028C470A7AD4D47B /* HMRRangeSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HMRRangeSlider-umbrella.h"; sourceTree = "<group>"; };
 		37F9AE6BF868B7B2E2231107917617F7 /* Pods-HMRRangeSlider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HMRRangeSlider_Example-frameworks.sh"; sourceTree = "<group>"; };
 		469A0A085B241982823F4559B67AC13E /* Pods-HMRRangeSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMRRangeSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4A1EED1AD5EE30B871F5701919C6B6AA /* HMRRangeSliderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HMRRangeSliderDelegate.h; path = HMRRangeSlider/Classes/HMRRangeSliderDelegate.h; sourceTree = "<group>"; };
-		4D437D13753BBE750651C901D9ECDBF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4D437D13753BBE750651C901D9ECDBF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		54B2249A3B60A82F9616CAE4AD9DB88B /* Pods-HMRRangeSlider_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HMRRangeSlider_Example.modulemap"; sourceTree = "<group>"; };
 		5CFEDBB02778CDBAF2BEB5D5708F5381 /* HMRRangeSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HMRRangeSlider.modulemap; sourceTree = "<group>"; };
 		5FC95DE9362208210D48214A74519E1C /* Pods-HMRRangeSlider_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HMRRangeSlider_Example-Info.plist"; sourceTree = "<group>"; };
 		6EA1F477F8E0F23609416193D6DF545A /* Pods-HMRRangeSlider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HMRRangeSlider_Example-umbrella.h"; sourceTree = "<group>"; };
 		70EFA1D50EE713C9200B25872DB8CADC /* HMRRangeSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HMRRangeSlider-dummy.m"; sourceTree = "<group>"; };
 		72576C3247AF6A4D955CCB98FD14F42E /* HMRRangeSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HMRRangeSlider.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B972F0C3154DACC672D7A4495057E1AB /* HMRRangeSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HMRRangeSlider-Info.plist"; sourceTree = "<group>"; };
-		BC89FE41B687AECDF91154F959E588ED /* HMRRangeSlider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HMRRangeSlider.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC89FE41B687AECDF91154F959E588ED /* HMRRangeSlider.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HMRRangeSlider.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C50C81A4D416508789116AA43A24C67D /* HMRRangeSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HMRRangeSlider.m; path = HMRRangeSlider/Classes/HMRRangeSlider.m; sourceTree = "<group>"; };
 		C5645A757AA6A501D7EF734A59B750E9 /* Pods-HMRRangeSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HMRRangeSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D3E0113E7D51675459192DD226BDBF09 /* Pods-HMRRangeSlider_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HMRRangeSlider_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F41D6F7B970E2BD8395610F2CC958673 /* HMRRangeSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HMRRangeSlider.framework; path = HMRRangeSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41D6F7B970E2BD8395610F2CC958673 /* HMRRangeSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HMRRangeSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -401,8 +402,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
